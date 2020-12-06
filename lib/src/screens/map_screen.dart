@@ -54,7 +54,7 @@ class _MapScreenState extends State<MapScreen> {
             '{id}/{z}/{x}/{y}@2x.png?access_token={accessToken}',
         additionalOptions: {
           'accessToken':
-              'Your MAPBOX KEY HERE',
+              'pk.eyJ1IjoiZGV1c21hZ25hIiwiYSI6ImNrYTFyN2V2ejAzeW8zZ25ycXIyMHM5MjUifQ.9pE48B9mItYs1qO7Uqwc1A',
           'id': 'mapbox.$mapType' // streets, dark, light, outdoors, satellite
         });
   }
